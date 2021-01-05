@@ -1,0 +1,8 @@
+CREATE DATABASE especie;
+
+USE especie;
+
+CREATE TABLE cadastro (
+id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
+descricao VARCHAR(100) NOT NULL 
+);
